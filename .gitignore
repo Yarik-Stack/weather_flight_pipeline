@@ -1,0 +1,46 @@
+# ▶️ Виртуальные окружения
+.venv/
+venv/
+ENV/
+env/
+
+# ▶️ Кеши и байт-код
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ▶️ Установочные и сборочные файлы
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ▶️ Логи, временные и выводные файлы
+*.log
+*.tmp
+*.bak
+*.out
+
+# ▶️ Секреты и переменные окружения
+.env
+.env.*
+!.env.example
+
+# ▶️ Jupyter и другие IDE-штуки
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.code-workspace
+
+# ▶️ macOS системные файлы
+.DS_Store
+
+# ▶️ Базы данных (если вдруг)
+*.sqlite3
+*.db
+
+# ▶️ Файлы тестов/вывода, если есть
+test_output/
+*.csv
+*.xlsx
