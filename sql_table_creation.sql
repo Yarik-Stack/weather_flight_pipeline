@@ -2,7 +2,6 @@ DROP DATABASE IF EXISTS sql_workshop;
 CREATE DATABASE sql_workshop;
 USE sql_workshop;
 
--- Главная таблица с городами и погодой
 CREATE TABLE cities (
     city_id INT PRIMARY KEY AUTO_INCREMENT,
     city VARCHAR(255) NOT NULL,
