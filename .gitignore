@@ -1,46 +1,46 @@
-# ▶️ Виртуальные окружения
+# Virtual Environments
 .venv/
 venv/
 ENV/
 env/
 
-# ▶️ Кеши и байт-код
+# Caches and bytecode
 __pycache__/
 *.py[cod]
 *.pyo
 
-# ▶️ Установочные и сборочные файлы
+# Packaging and build artifacts
 *.egg
 *.egg-info/
 dist/
 build/
 .eggs/
 
-# ▶️ Логи, временные и выводные файлы
+# Logs, temp and output files
 *.log
 *.tmp
 *.bak
 *.out
 
-# ▶️ Секреты и переменные окружения
+# Secrets and environment variables
 .env
 .env.*
 !.env.example
 
-# ▶️ Jupyter и другие IDE-штуки
+# Jupyter notebooks and IDE configs
 .ipynb_checkpoints/
 .vscode/
 .idea/
 *.code-workspace
 
-# ▶️ macOS системные файлы
+# macOS system files
 .DS_Store
 
-# ▶️ Базы данных (если вдруг)
+# Database files (if any)
 *.sqlite3
 *.db
 
-# ▶️ Файлы тестов/вывода, если есть
+# Test/output files
 test_output/
 *.csv
 *.xlsx
